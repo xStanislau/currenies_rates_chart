@@ -1,0 +1,15 @@
+html {
+  font-family: Roboto;
+}
+.curencies-heading {
+  text-align: center;
+}
+#myChart {
+  margin-bottom: 15px;
+}
+.chart {
+  width: 600px;
+  height: 550px;
+  margin: 0 auto;
+}
+

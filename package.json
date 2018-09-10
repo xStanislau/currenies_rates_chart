@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf build | rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^0.65.2",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-terser": "^2.0.2"
+  },
+  "dependencies": {
+    "rollup-plugin-copy": "^0.2.3"
+  }
+}
